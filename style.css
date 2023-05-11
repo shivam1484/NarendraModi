@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 100vh;
+    border: 10px solid blue;
+    background-color: beige;
+}
+.content{
+    width: 900px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px 200px 100px 0;
+}
+.photo{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.photo,img{
+    width: 300px;
+    height: 300px;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 30px;
+}
+.header h4{
+    font-size: 20px;
+}
+.about h2{
+    font-size: 30px;
+    font-weight: 20px;
+    text-decoration: underline;
+}
+.about p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+}
+.Bibliography h2{
+    font-size: 25px;
+    font-weight: 20px;
+    margin: 30px 0 20px 0;
+}
+.Bibliography ul{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: end;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
